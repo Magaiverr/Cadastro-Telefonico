@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Telefonico</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Agenda de Contatos</h1>
+        </header>
+    <form id="contatoForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+
+        <label for="tel">Telefone:</label>
+        <input type="text" id="tel" required>
+        <button type="submit">Cadastrar</button>
+        
+    </form>
+        <table id="contactTable">
+            <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+            </tr>
+        </table>
+        <button id="clearButton">Limpar Contatos</button>
+    </div>
+</table>
+</body>
+<script src="main.js"></script>
+</html>
